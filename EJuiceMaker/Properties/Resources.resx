@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,310 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ingredients" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ingredients.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\mix.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="recipes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\recipes.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabIngredients" xml:space="preserve">
+    <value>Ingredients</value>
+  </data>
+  <data name="TabMix" xml:space="preserve">
+    <value>Mix</value>
+  </data>
+  <data name="TabRecipes" xml:space="preserve">
+    <value>Recipes</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bin_empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\bin_empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diskette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\diskette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_vertical_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\folder_vertical_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\page_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\save_as.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Category_Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Category_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Category_Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Description_Ingredient_AlcoholContent" xml:space="preserve">
+    <value>Percentage of Alcohol</value>
+  </data>
+  <data name="Description_Ingredient_CostPerMl" xml:space="preserve">
+    <value>Cost per mL in local currency</value>
+  </data>
+  <data name="Description_Ingredient_LastPurchaseDate" xml:space="preserve">
+    <value>Timestamp of the last restock of this ingredient</value>
+  </data>
+  <data name="Description_Ingredient_Manufacturer" xml:space="preserve">
+    <value>Manufacturer name</value>
+  </data>
+  <data name="Description_Ingredient_Name" xml:space="preserve">
+    <value>Name of the ingredient</value>
+  </data>
+  <data name="Description_Ingredient_NicotineDose" xml:space="preserve">
+    <value>Amount of Nicotine (mg/mL)</value>
+  </data>
+  <data name="Description_Ingredient_Notes" xml:space="preserve">
+    <value>Ingredient notes</value>
+  </data>
+  <data name="Description_Ingredient_PgContent" xml:space="preserve">
+    <value>Percentage of Propylene Glycol</value>
+  </data>
+  <data name="Description_Ingredient_QtyLowAlert" xml:space="preserve">
+    <value>Low Alert threshold (mL)</value>
+  </data>
+  <data name="Description_Ingredient_QtyLowAlertEnabled" xml:space="preserve">
+    <value>Enabled the Low Alert</value>
+  </data>
+  <data name="Description_Ingredient_QtyLowWarn" xml:space="preserve">
+    <value>Low Warning threshold (mL)</value>
+  </data>
+  <data name="Description_Ingredient_QtyLowWarnEnabled" xml:space="preserve">
+    <value>Enable the Low Warning</value>
+  </data>
+  <data name="Description_Ingredient_QtyOnHand" xml:space="preserve">
+    <value>Amount of ingredient in inventory (mL)</value>
+  </data>
+  <data name="Description_Ingredient_SpecificGravity" xml:space="preserve">
+    <value>Specific Gravity in grams per mL</value>
+  </data>
+  <data name="Description_Ingredient_Vendor" xml:space="preserve">
+    <value>Vendor name</value>
+  </data>
+  <data name="Description_Ingredient_VgContent" xml:space="preserve">
+    <value>Percentage of Vegetable Glycerine</value>
+  </data>
+  <data name="Description_Ingredient_WaterContent" xml:space="preserve">
+    <value>Percentage of Water</value>
+  </data>
+  <data name="DisplayName_Ingredient_AlcoholContent" xml:space="preserve">
+    <value>Alcohol Content</value>
+  </data>
+  <data name="DisplayName_Ingredient_CostPerMl" xml:space="preserve">
+    <value>Cost Per mL</value>
+  </data>
+  <data name="DisplayName_Ingredient_LastPurchaseDate" xml:space="preserve">
+    <value>Last Purchase Date</value>
+  </data>
+  <data name="DisplayName_Ingredient_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="DisplayName_Ingredient_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DisplayName_Ingredient_NicotineDose" xml:space="preserve">
+    <value>Nicotine Dose (mg/mL)</value>
+  </data>
+  <data name="DisplayName_Ingredient_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="DisplayName_Ingredient_PgContent" xml:space="preserve">
+    <value>PG Content</value>
+  </data>
+  <data name="DisplayName_Ingredient_QtyLowAlert" xml:space="preserve">
+    <value>Quantity Low Alert (mL)</value>
+  </data>
+  <data name="DisplayName_Ingredient_QtyLowAlertEnabled" xml:space="preserve">
+    <value>Quantity Low Alert Enabled</value>
+  </data>
+  <data name="DisplayName_Ingredient_QtyLowWarn" xml:space="preserve">
+    <value>Quantity Low Warning (mL)</value>
+  </data>
+  <data name="DisplayName_Ingredient_QtyLowWarnEnabled" xml:space="preserve">
+    <value>Quantity Low Warning Enabled</value>
+  </data>
+  <data name="DisplayName_Ingredient_QtyOnHand" xml:space="preserve">
+    <value>Quantity On Hand (mL)</value>
+  </data>
+  <data name="DisplayName_Ingredient_SpecificGravity" xml:space="preserve">
+    <value>Specific Gravity (g/mL)</value>
+  </data>
+  <data name="DisplayName_Ingredient_Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="DisplayName_Ingredient_VgContent" xml:space="preserve">
+    <value>VG Content</value>
+  </data>
+  <data name="DisplayName_Ingredient_WaterContent" xml:space="preserve">
+    <value>Water Content</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ErrorFormatCurrency" xml:space="preserve">
+    <value>Invalid currency value.</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="AreYouSureDeleteAllIngredients" xml:space="preserve">
+    <value>Are you sure you want to remove all ingredients?
+
+All ingredients will be removed from all recipes!</value>
+  </data>
+  <data name="AreYouSureDeleteIngredient" xml:space="preserve">
+    <value>Are you sure you want to remove this ingredient?
+
+It will be removed from all recipes!</value>
+  </data>
+  <data name="ErrorFormatPercent" xml:space="preserve">
+    <value>Invalid percentage.</value>
+  </data>
+  <data name="NewIngredientName" xml:space="preserve">
+    <value>New Ingredient {0}</value>
+  </data>
+  <data name="NewRecipeName" xml:space="preserve">
+    <value>New Recipe {0}</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>EJuice Maker</value>
+  </data>
+  <data name="AreYouSureDeleteAllRecipeIngredients" xml:space="preserve">
+    <value>Are you sure you want to remove all ingredients from this recipe?</value>
+  </data>
+  <data name="AreYouSureDeleteAllRecipes" xml:space="preserve">
+    <value>Are you sure you want to remove all recipes?</value>
+  </data>
+  <data name="AreYouSureDeleteRecipe" xml:space="preserve">
+    <value>Are you sure you want to remove this recipe?</value>
+  </data>
+  <data name="AreYouSureDeleteRecipeIngredient" xml:space="preserve">
+    <value>Are you sure you want to remove this ingredient from this recipe?</value>
+  </data>
+  <data name="Description_IngredientType_Flavor" xml:space="preserve">
+    <value>Flavoring</value>
+  </data>
+  <data name="Description_IngredientType_NicotineBase" xml:space="preserve">
+    <value>Nicotine Base</value>
+  </data>
+  <data name="Description_IngredientType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Description_IngredientType_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Description_IngredientType_PropyleneGlycol" xml:space="preserve">
+    <value>Propylene Glycol</value>
+  </data>
+  <data name="Description_IngredientType_VegetableGlycerin" xml:space="preserve">
+    <value>Vegetable Glycerin</value>
+  </data>
+  <data name="Description_Ingredient_Type" xml:space="preserve">
+    <value>Basic type of the ingredient</value>
+  </data>
+  <data name="DisplayName_Ingredient_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ErrorFailedToLoadInventory" xml:space="preserve">
+    <value>Failed to load inventory: {0}</value>
+  </data>
+  <data name="ErrorFailedToSaveInventory" xml:space="preserve">
+    <value>Failed to save inventory: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NotAvailableAbbrv" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Unit_mgmL" xml:space="preserve">
+    <value>mg/mL</value>
+  </data>
+  <data name="Unit_mL" xml:space="preserve">
+    <value>mL</value>
+  </data>
+  <data name="UnsavedChanges" xml:space="preserve">
+    <value>There are unsaved changes to {0}. Would you like to save them?</value>
+  </data>
+  <data name="ErrorMixNotEnoughPg" xml:space="preserve">
+    <value>Not enough Propylene Glycol in recipe to mix.</value>
+  </data>
+  <data name="ErrorMixNotEnoughVg" xml:space="preserve">
+    <value>Not enough Vegetable Glycerine in recipe to mix.</value>
+  </data>
+  <data name="ErrorMixTooMuchPg" xml:space="preserve">
+    <value>Recipe requires more Propylene Glycol than this mix ratio will allow.</value>
+  </data>
+  <data name="ErrorMixTooMuchVg" xml:space="preserve">
+    <value>Recipe requires more Vegetable Glycerine than this mix ratio will allow.</value>
+  </data>
+  <data name="cross_shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\cross_shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tick_shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\tick_shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MixValid" xml:space="preserve">
+    <value>This can be mixed.</value>
+  </data>
+  <data name="ErrorMixNoIngredients" xml:space="preserve">
+    <value>This recipe has no ingredients.</value>
+  </data>
+  <data name="Description_Ingredient_SKU" xml:space="preserve">
+    <value>User-defined stock-keeping unit
+
+This can be used as a Vendor SKU or a local inventory SKU.</value>
+  </data>
+  <data name="Description_Ingredient_UPC" xml:space="preserve">
+    <value>Universal Product Code</value>
+  </data>
+  <data name="DisplayName_Ingredient_SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="DisplayName_Ingredient_UPC" xml:space="preserve">
+    <value>UPC</value>
+  </data>
+  <data name="calculator_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\calculator_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\house_go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\table_export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\table_import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_lightning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\table_lightning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\table_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

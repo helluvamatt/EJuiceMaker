@@ -1,0 +1,2499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstTabs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <metadata name="tabPageEntryBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstTabs.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lstTabs.ItemHeight" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lstTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="lstTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 522</value>
+  </data>
+  <data name="lstTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lstTabs.Name" xml:space="preserve">
+    <value>lstTabs</value>
+  </data>
+  <data name="&gt;&gt;lstTabs.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.ListBoxEx, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstTabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstTabs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="mainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="mainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 24</value>
+  </data>
+  <data name="mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mainMenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Name" xml:space="preserve">
+    <value>mainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="newInventoryToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="newInventoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="newInventoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>New Inventory</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 6</value>
+  </data>
+  <data name="openInventoryToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="openInventoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="openInventoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Inventory...</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 6</value>
+  </data>
+  <data name="saveInventoryToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveInventoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="saveInventoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Inventory</value>
+  </data>
+  <data name="saveInventoryAsToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+S</value>
+  </data>
+  <data name="saveInventoryAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="saveInventoryAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Inventory As...</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="panelSwitcher.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutMix.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutMix.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Name" xml:space="preserve">
+    <value>lblMixVolume</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Name" xml:space="preserve">
+    <value>lblMixNicotine</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Name" xml:space="preserve">
+    <value>lblMixVg</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Name" xml:space="preserve">
+    <value>lblMixPg</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Name" xml:space="preserve">
+    <value>numMixVg</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Name" xml:space="preserve">
+    <value>numMixPg</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Name" xml:space="preserve">
+    <value>numMixNicotine</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Name" xml:space="preserve">
+    <value>numMixVolume</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Name" xml:space="preserve">
+    <value>lblMixValid</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Name" xml:space="preserve">
+    <value>lblMixValidMessage</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Name" xml:space="preserve">
+    <value>gridMixResults</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="layoutMix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 58</value>
+  </data>
+  <data name="layoutMix.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="layoutMix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 435</value>
+  </data>
+  <data name="layoutMix.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;layoutMix.Name" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;layoutMix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutMix.Parent" xml:space="preserve">
+    <value>tabPageMix</value>
+  </data>
+  <data name="&gt;&gt;layoutMix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutMix.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblMixVolume" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMixNicotine" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMixVg" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMixPg" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="numMixVg" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numMixPg" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numMixNicotine" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numMixVolume" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblMixValid" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMixValidMessage" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="gridMixResults" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="recipeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1103, 17</value>
+  </metadata>
+  <data name="cmbMixRecipe.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbMixRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="cmbMixRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 21</value>
+  </data>
+  <data name="cmbMixRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbMixRecipe.Name" xml:space="preserve">
+    <value>cmbMixRecipe</value>
+  </data>
+  <data name="&gt;&gt;cmbMixRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbMixRecipe.Parent" xml:space="preserve">
+    <value>tabPageMix</value>
+  </data>
+  <data name="&gt;&gt;cmbMixRecipe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolStripMix.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>213, 56</value>
+  </metadata>
+  <data name="btnMixEditRecipe.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnMixEditRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 22</value>
+  </data>
+  <data name="btnMixEditRecipe.Text" xml:space="preserve">
+    <value>Edit Recipe</value>
+  </data>
+  <data name="btnMixResetDefaults.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnMixResetDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="btnMixResetDefaults.Text" xml:space="preserve">
+    <value>Reset to Defaults</value>
+  </data>
+  <data name="btnMixSaveDefaults.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnMixSaveDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="btnMixSaveDefaults.Text" xml:space="preserve">
+    <value>Set Defaults</value>
+  </data>
+  <data name="toolStripMix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="toolStripMix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 25</value>
+  </data>
+  <data name="toolStripMix.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStripMix.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMix.Name" xml:space="preserve">
+    <value>toolStripMix</value>
+  </data>
+  <data name="&gt;&gt;toolStripMix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMix.Parent" xml:space="preserve">
+    <value>tabPageMix</value>
+  </data>
+  <data name="&gt;&gt;toolStripMix.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageMix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageMix.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 496</value>
+  </data>
+  <data name="tabPageMix.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageMix.Text" xml:space="preserve">
+    <value>Mix</value>
+  </data>
+  <data name="&gt;&gt;tabPageMix.Name" xml:space="preserve">
+    <value>tabPageMix</value>
+  </data>
+  <data name="&gt;&gt;tabPageMix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMix.Parent" xml:space="preserve">
+    <value>panelSwitcher</value>
+  </data>
+  <data name="&gt;&gt;tabPageMix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutRecipes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutRecipes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 58</value>
+  </data>
+  <data name="layoutRecipeDetails.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Name" xml:space="preserve">
+    <value>lblRecipeName</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Name" xml:space="preserve">
+    <value>lblRecipeDefaultNicotineDose</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Name" xml:space="preserve">
+    <value>lblDefaultAmountToMake</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Name" xml:space="preserve">
+    <value>lblDaysToSteep</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Name" xml:space="preserve">
+    <value>lblRecipeModified</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Name" xml:space="preserve">
+    <value>lblRecipeCreated</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Name" xml:space="preserve">
+    <value>lblRecipeModifiedValue</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Name" xml:space="preserve">
+    <value>lblRecipeCreatedValue</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Name" xml:space="preserve">
+    <value>lblRecipeNotes</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Name" xml:space="preserve">
+    <value>txtRecipeName</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Name" xml:space="preserve">
+    <value>txtRecipeNotes</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Name" xml:space="preserve">
+    <value>numRecipeDefaultNicotineDose</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Name" xml:space="preserve">
+    <value>numRecipeDefaultAmountToMake</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Name" xml:space="preserve">
+    <value>numRecipeDaysToSteep</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Name" xml:space="preserve">
+    <value>numRecipeDefaultVG</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Name" xml:space="preserve">
+    <value>numRecipeDefaultPG</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Name" xml:space="preserve">
+    <value>lblRecipeDefaultVG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Name" xml:space="preserve">
+    <value>lblRecipeDefaultPG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Name" xml:space="preserve">
+    <value>lblRecipeTags</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Name" xml:space="preserve">
+    <value>txtRecipeTags</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.TagsListBox, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="layoutRecipeDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutRecipeDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutRecipeDetails.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="layoutRecipeDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 438</value>
+  </data>
+  <data name="layoutRecipeDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipeDetails.Name" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipeDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipeDetails.Parent" xml:space="preserve">
+    <value>layoutRecipes.Panel1</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipeDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutRecipeDetails.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRecipeName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeDefaultNicotineDose" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblDefaultAmountToMake" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblDaysToSteep" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeModified" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeCreated" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeModifiedValue" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeCreatedValue" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeNotes" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtRecipeName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtRecipeNotes" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numRecipeDefaultNicotineDose" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numRecipeDefaultAmountToMake" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numRecipeDaysToSteep" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numRecipeDefaultVG" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="numRecipeDefaultPG" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeDefaultVG" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeDefaultPG" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblRecipeTags" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtRecipeTags" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,Percent,100,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel1.Name" xml:space="preserve">
+    <value>layoutRecipes.Panel1</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel1.Parent" xml:space="preserve">
+    <value>layoutRecipes</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStripRecipeIngredients.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="toolStripRecipeIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripRecipeIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 25</value>
+  </data>
+  <data name="toolStripRecipeIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="toolStripRecipeIngredients.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipeIngredients.Name" xml:space="preserve">
+    <value>toolStripRecipeIngredients</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipeIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipeIngredients.Parent" xml:space="preserve">
+    <value>layoutRecipes.Panel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipeIngredients.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="recipeIngredientBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1267, 17</value>
+  </metadata>
+  <data name="gridRecipeIngredients.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="gridRecipeIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="gridRecipeIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 407</value>
+  </data>
+  <data name="gridRecipeIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredients.Name" xml:space="preserve">
+    <value>gridRecipeIngredients</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredients.Parent" xml:space="preserve">
+    <value>layoutRecipes.Panel2</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredients.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel2.Name" xml:space="preserve">
+    <value>layoutRecipes.Panel2</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel2.Parent" xml:space="preserve">
+    <value>layoutRecipes</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="layoutRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 438</value>
+  </data>
+  <data name="layoutRecipes.SplitterDistance" type="System.Int32, mscorlib">
+    <value>368</value>
+  </data>
+  <data name="layoutRecipes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Name" xml:space="preserve">
+    <value>layoutRecipes</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.Parent" xml:space="preserve">
+    <value>tabPageRecipes</value>
+  </data>
+  <data name="&gt;&gt;layoutRecipes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbRecipes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbRecipes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="cmbRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 21</value>
+  </data>
+  <data name="cmbRecipes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipes.Name" xml:space="preserve">
+    <value>cmbRecipes</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipes.Parent" xml:space="preserve">
+    <value>tabPageRecipes</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolStripRecipes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>963, 17</value>
+  </metadata>
+  <data name="btnRecipesAdd.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipesAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="btnRecipesAdd.Text" xml:space="preserve">
+    <value>Add Recipe</value>
+  </data>
+  <data name="btnRecipesRemove.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipesRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="btnRecipesRemove.Text" xml:space="preserve">
+    <value>Delete Recipe</value>
+  </data>
+  <data name="btnRecipesClear.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipesClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnRecipesClear.Text" xml:space="preserve">
+    <value>Remove all recipes</value>
+  </data>
+  <data name="toolStripRecipes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="toolStripRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 25</value>
+  </data>
+  <data name="toolStripRecipes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStripRecipes.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipes.Name" xml:space="preserve">
+    <value>toolStripRecipes</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipes.Parent" xml:space="preserve">
+    <value>tabPageRecipes</value>
+  </data>
+  <data name="&gt;&gt;toolStripRecipes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageRecipes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageRecipes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 496</value>
+  </data>
+  <data name="tabPageRecipes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageRecipes.Text" xml:space="preserve">
+    <value>Recipes</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecipes.Name" xml:space="preserve">
+    <value>tabPageRecipes</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecipes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecipes.Parent" xml:space="preserve">
+    <value>panelSwitcher</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecipes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="propertyGridIngredients.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="propertyGridIngredients.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="propertyGridIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="propertyGridIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 438</value>
+  </data>
+  <data name="propertyGridIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;propertyGridIngredients.Name" xml:space="preserve">
+    <value>propertyGridIngredients</value>
+  </data>
+  <data name="&gt;&gt;propertyGridIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertyGridIngredients.Parent" xml:space="preserve">
+    <value>tabPageIngredients</value>
+  </data>
+  <data name="&gt;&gt;propertyGridIngredients.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ingredientBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>777, 17</value>
+  </metadata>
+  <data name="comboBoxIngredients.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="comboBoxIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="comboBoxIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 21</value>
+  </data>
+  <data name="comboBoxIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxIngredients.Name" xml:space="preserve">
+    <value>comboBoxIngredients</value>
+  </data>
+  <data name="&gt;&gt;comboBoxIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxIngredients.Parent" xml:space="preserve">
+    <value>tabPageIngredients</value>
+  </data>
+  <data name="&gt;&gt;comboBoxIngredients.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolStripIngredients.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>617, 17</value>
+  </metadata>
+  <data name="btnIngredientsAdd.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnIngredientsAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="btnIngredientsAdd.Text" xml:space="preserve">
+    <value>Add Ingredient</value>
+  </data>
+  <data name="btnIngredientsClear.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnIngredientsClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnIngredientsClear.Text" xml:space="preserve">
+    <value>Remove all ingredients</value>
+  </data>
+  <data name="btnIngredientsDelete.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnIngredientsDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="btnIngredientsDelete.Text" xml:space="preserve">
+    <value>Delete Ingredient</value>
+  </data>
+  <data name="toolStripIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="toolStripIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 25</value>
+  </data>
+  <data name="toolStripIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStripIngredients.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripIngredients.Name" xml:space="preserve">
+    <value>toolStripIngredients</value>
+  </data>
+  <data name="&gt;&gt;toolStripIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripIngredients.Parent" xml:space="preserve">
+    <value>tabPageIngredients</value>
+  </data>
+  <data name="&gt;&gt;toolStripIngredients.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageIngredients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageIngredients.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageIngredients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 496</value>
+  </data>
+  <data name="tabPageIngredients.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageIngredients.Text" xml:space="preserve">
+    <value>Ingredients</value>
+  </data>
+  <data name="&gt;&gt;tabPageIngredients.Name" xml:space="preserve">
+    <value>tabPageIngredients</value>
+  </data>
+  <data name="&gt;&gt;tabPageIngredients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageIngredients.Parent" xml:space="preserve">
+    <value>panelSwitcher</value>
+  </data>
+  <data name="&gt;&gt;tabPageIngredients.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelSwitcher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 27</value>
+  </data>
+  <data name="panelSwitcher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 522</value>
+  </data>
+  <data name="panelSwitcher.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelSwitcher.Name" xml:space="preserve">
+    <value>panelSwitcher</value>
+  </data>
+  <data name="&gt;&gt;panelSwitcher.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PanelSwitcher, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelSwitcher.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelSwitcher.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMixVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblMixVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMixVolume.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblMixVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 6</value>
+  </data>
+  <data name="lblMixVolume.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblMixVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblMixVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblMixVolume.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Name" xml:space="preserve">
+    <value>lblMixVolume</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixVolume.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMixNicotine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblMixNicotine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMixNicotine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblMixNicotine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="lblMixNicotine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblMixNicotine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblMixNicotine.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblMixNicotine.Text" xml:space="preserve">
+    <value>Nicotine</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Name" xml:space="preserve">
+    <value>lblMixNicotine</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixNicotine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMixVg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblMixVg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMixVg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblMixVg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 58</value>
+  </data>
+  <data name="lblMixVg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblMixVg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblMixVg.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblMixVg.Text" xml:space="preserve">
+    <value>VG</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Name" xml:space="preserve">
+    <value>lblMixVg</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixVg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMixPg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblMixPg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMixPg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblMixPg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 84</value>
+  </data>
+  <data name="lblMixPg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblMixPg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblMixPg.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblMixPg.Text" xml:space="preserve">
+    <value>PG</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Name" xml:space="preserve">
+    <value>lblMixPg</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixPg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numMixVg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="numMixVg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 55</value>
+  </data>
+  <data name="numMixVg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMixVg.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="numMixVg.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Name" xml:space="preserve">
+    <value>numMixVg</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixVg.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numMixPg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="numMixPg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 81</value>
+  </data>
+  <data name="numMixPg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMixPg.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="numMixPg.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Name" xml:space="preserve">
+    <value>numMixPg</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixPg.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numMixNicotine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="numMixNicotine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 29</value>
+  </data>
+  <data name="numMixNicotine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMixNicotine.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="numMixNicotine.Unit" xml:space="preserve">
+    <value>mg/mL</value>
+  </data>
+  <data name="numMixNicotine.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Name" xml:space="preserve">
+    <value>numMixNicotine</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixNicotine.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numMixVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="numMixVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 3</value>
+  </data>
+  <data name="numMixVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numMixVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="numMixVolume.Unit" xml:space="preserve">
+    <value>mL</value>
+  </data>
+  <data name="numMixVolume.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Name" xml:space="preserve">
+    <value>numMixVolume</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;numMixVolume.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMixValid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblMixValid.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblMixValid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="lblMixValid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblMixValid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="lblMixValid.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Name" xml:space="preserve">
+    <value>lblMixValid</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixValid.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblMixValidMessage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblMixValidMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMixValidMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 112</value>
+  </data>
+  <data name="lblMixValidMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblMixValidMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblMixValidMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Name" xml:space="preserve">
+    <value>lblMixValidMessage</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;lblMixValidMessage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="mixIngredientModelBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 56</value>
+  </metadata>
+  <data name="gridMixResults.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridMixResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 137</value>
+  </data>
+  <data name="gridMixResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>734, 295</value>
+  </data>
+  <data name="gridMixResults.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Name" xml:space="preserve">
+    <value>gridMixResults</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.Parent" xml:space="preserve">
+    <value>layoutMix</value>
+  </data>
+  <data name="&gt;&gt;gridMixResults.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gridMixResultsIngredientNameColumn.HeaderText" xml:space="preserve">
+    <value>Ingredient Name</value>
+  </data>
+  <data name="gridMixResultsIngredientTypeColumn.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="gridMixResultsIngredientTypeColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="gridMixResultsComputedPercentageColumn.HeaderText" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="gridMixResultsComputedPercentageColumn.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="gridMixResultsComputedVolumeColumn.HeaderText" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="gridMixResultsComputedVolumeColumn.Width" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="gridMixResultsComputedMassColumn.HeaderText" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="gridMixResultsComputedMassColumn.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <metadata name="mixIngredientModelBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>515, 56</value>
+  </metadata>
+  <metadata name="recipeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1103, 17</value>
+  </metadata>
+  <data name="lblRecipeName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="lblRecipeName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblRecipeName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRecipeName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Name" xml:space="preserve">
+    <value>lblRecipeName</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblRecipeDefaultNicotineDose.Text" xml:space="preserve">
+    <value>Default Nic Level</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Name" xml:space="preserve">
+    <value>lblRecipeDefaultNicotineDose</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultNicotineDose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblDefaultAmountToMake.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 110</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lblDefaultAmountToMake.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDefaultAmountToMake.Text" xml:space="preserve">
+    <value>Default Batch</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Name" xml:space="preserve">
+    <value>lblDefaultAmountToMake</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultAmountToMake.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDaysToSteep.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblDaysToSteep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDaysToSteep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblDaysToSteep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 136</value>
+  </data>
+  <data name="lblDaysToSteep.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblDaysToSteep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblDaysToSteep.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblDaysToSteep.Text" xml:space="preserve">
+    <value>Days to Steep</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Name" xml:space="preserve">
+    <value>lblDaysToSteep</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblDaysToSteep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRecipeModified.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeModified.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeModified.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeModified.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 417</value>
+  </data>
+  <data name="lblRecipeModified.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeModified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblRecipeModified.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblRecipeModified.Text" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Name" xml:space="preserve">
+    <value>lblRecipeModified</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModified.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblRecipeCreated.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeCreated.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeCreated.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeCreated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 388</value>
+  </data>
+  <data name="lblRecipeCreated.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeCreated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblRecipeCreated.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblRecipeCreated.Text" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Name" xml:space="preserve">
+    <value>lblRecipeCreated</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreated.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblRecipeModifiedValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblRecipeModifiedValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 412</value>
+  </data>
+  <data name="lblRecipeModifiedValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblRecipeModifiedValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 23</value>
+  </data>
+  <data name="lblRecipeModifiedValue.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblRecipeModifiedValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Name" xml:space="preserve">
+    <value>lblRecipeModifiedValue</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeModifiedValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblRecipeCreatedValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblRecipeCreatedValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 383</value>
+  </data>
+  <data name="lblRecipeCreatedValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblRecipeCreatedValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 23</value>
+  </data>
+  <data name="lblRecipeCreatedValue.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblRecipeCreatedValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Name" xml:space="preserve">
+    <value>lblRecipeCreatedValue</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeCreatedValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblRecipeNotes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblRecipeNotes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 159</value>
+  </data>
+  <data name="lblRecipeNotes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblRecipeNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblRecipeNotes.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Name" xml:space="preserve">
+    <value>lblRecipeNotes</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeNotes.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtRecipeName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtRecipeName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 3</value>
+  </data>
+  <data name="txtRecipeName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="txtRecipeName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Name" xml:space="preserve">
+    <value>txtRecipeName</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtRecipeNotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtRecipeNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 159</value>
+  </data>
+  <data name="txtRecipeNotes.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtRecipeNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 199</value>
+  </data>
+  <data name="txtRecipeNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Name" xml:space="preserve">
+    <value>txtRecipeNotes</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeNotes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 81</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.Unit" xml:space="preserve">
+    <value>mg/mL</value>
+  </data>
+  <data name="numRecipeDefaultNicotineDose.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Name" xml:space="preserve">
+    <value>numRecipeDefaultNicotineDose</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultNicotineDose.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 107</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.Unit" xml:space="preserve">
+    <value>mL</value>
+  </data>
+  <data name="numRecipeDefaultAmountToMake.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Name" xml:space="preserve">
+    <value>numRecipeDefaultAmountToMake</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.UnitNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultAmountToMake.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="numRecipeDaysToSteep.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="numRecipeDaysToSteep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 133</value>
+  </data>
+  <data name="numRecipeDaysToSteep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="numRecipeDaysToSteep.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="numRecipeDaysToSteep.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Name" xml:space="preserve">
+    <value>numRecipeDaysToSteep</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDaysToSteep.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="numRecipeDefaultVG.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="numRecipeDefaultVG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 29</value>
+  </data>
+  <data name="numRecipeDefaultVG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="numRecipeDefaultVG.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="numRecipeDefaultVG.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Name" xml:space="preserve">
+    <value>numRecipeDefaultVG</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultVG.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="numRecipeDefaultPG.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="numRecipeDefaultPG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 55</value>
+  </data>
+  <data name="numRecipeDefaultPG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="numRecipeDefaultPG.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="numRecipeDefaultPG.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Name" xml:space="preserve">
+    <value>numRecipeDefaultPG</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.PercentNumericUpDown, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;numRecipeDefaultPG.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeDefaultVG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 32</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblRecipeDefaultVG.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblRecipeDefaultVG.Text" xml:space="preserve">
+    <value>Default VG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Name" xml:space="preserve">
+    <value>lblRecipeDefaultVG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultVG.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeDefaultPG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 58</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblRecipeDefaultPG.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblRecipeDefaultPG.Text" xml:space="preserve">
+    <value>Default PG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Name" xml:space="preserve">
+    <value>lblRecipeDefaultPG</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeDefaultPG.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblRecipeTags.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblRecipeTags.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRecipeTags.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecipeTags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 364</value>
+  </data>
+  <data name="lblRecipeTags.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 0, 3</value>
+  </data>
+  <data name="lblRecipeTags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRecipeTags.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblRecipeTags.Text" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Name" xml:space="preserve">
+    <value>lblRecipeTags</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;lblRecipeTags.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtRecipeTags.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtRecipeTags.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtRecipeTags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 364</value>
+  </data>
+  <data name="txtRecipeTags.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="txtRecipeTags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 8</value>
+  </data>
+  <data name="txtRecipeTags.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Name" xml:space="preserve">
+    <value>txtRecipeTags</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Type" xml:space="preserve">
+    <value>EJuiceMaker.Controls.TagsListBox, EJuiceMaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.Parent" xml:space="preserve">
+    <value>layoutRecipeDetails</value>
+  </data>
+  <data name="&gt;&gt;txtRecipeTags.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cmbRecipeIngredientAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="btnRecipeIngredientAdd.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipeIngredientAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnRecipeIngredientAdd.Text" xml:space="preserve">
+    <value>Add ingredient</value>
+  </data>
+  <data name="btnRecipeIngredientRemove.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipeIngredientRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnRecipeIngredientRemove.Text" xml:space="preserve">
+    <value>Remove current ingredient</value>
+  </data>
+  <data name="btnRecipeIngredientClear.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnRecipeIngredientClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="btnRecipeIngredientClear.Text" xml:space="preserve">
+    <value>Remove all ingredients</value>
+  </data>
+  <data name="gridRecipeIngredientsIngredientColumn.HeaderText" xml:space="preserve">
+    <value>Ingredient</value>
+  </data>
+  <data name="gridRecipeIngredientsPercentageColumn.HeaderText" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="gridRecipeIngredientsPercentageColumn.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="gridRecipeIngredientsTypeColumn.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="gridRecipeIngredientsTypeColumn.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <metadata name="recipeIngredientBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1267, 17</value>
+  </metadata>
+  <metadata name="ingredientBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>777, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 17</value>
+  </metadata>
+  <data name="saveFileDialog.Filter" xml:space="preserve">
+    <value>Inventory...|*.xml|All files...|*.*</value>
+  </data>
+  <data name="saveFileDialog.Title" xml:space="preserve">
+    <value>Save Inventory As...</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>484, 17</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Inventory...|*.xml|All files...|*.*</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Open Inventory...</value>
+  </data>
+  <metadata name="recipeTagBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>331, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>95</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>944, 561</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EJuice Maker</value>
+  </data>
+  <data name="&gt;&gt;tabPageEntryBindingSource.Name" xml:space="preserve">
+    <value>tabPageEntryBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tabPageEntryBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newInventoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>newInventoryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newInventoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openInventoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>openInventoryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openInventoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveInventoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveInventoryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveInventoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveInventoryAsToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveInventoryAsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveInventoryAsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsIngredientNameColumn.Name" xml:space="preserve">
+    <value>gridMixResultsIngredientNameColumn</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsIngredientNameColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsIngredientTypeColumn.Name" xml:space="preserve">
+    <value>gridMixResultsIngredientTypeColumn</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsIngredientTypeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedPercentageColumn.Name" xml:space="preserve">
+    <value>gridMixResultsComputedPercentageColumn</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedPercentageColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedVolumeColumn.Name" xml:space="preserve">
+    <value>gridMixResultsComputedVolumeColumn</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedVolumeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedMassColumn.Name" xml:space="preserve">
+    <value>gridMixResultsComputedMassColumn</value>
+  </data>
+  <data name="&gt;&gt;gridMixResultsComputedMassColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mixIngredientModelBindingSource.Name" xml:space="preserve">
+    <value>mixIngredientModelBindingSource</value>
+  </data>
+  <data name="&gt;&gt;mixIngredientModelBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recipeBindingSource.Name" xml:space="preserve">
+    <value>recipeBindingSource</value>
+  </data>
+  <data name="&gt;&gt;recipeBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMixEditRecipe.Name" xml:space="preserve">
+    <value>btnMixEditRecipe</value>
+  </data>
+  <data name="&gt;&gt;btnMixEditRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMixResetDefaults.Name" xml:space="preserve">
+    <value>btnMixResetDefaults</value>
+  </data>
+  <data name="&gt;&gt;btnMixResetDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMixSaveDefaults.Name" xml:space="preserve">
+    <value>btnMixSaveDefaults</value>
+  </data>
+  <data name="&gt;&gt;btnMixSaveDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipeIngredientAdd.Name" xml:space="preserve">
+    <value>cmbRecipeIngredientAdd</value>
+  </data>
+  <data name="&gt;&gt;cmbRecipeIngredientAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientAdd.Name" xml:space="preserve">
+    <value>btnRecipeIngredientAdd</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientRemove.Name" xml:space="preserve">
+    <value>btnRecipeIngredientRemove</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientClear.Name" xml:space="preserve">
+    <value>btnRecipeIngredientClear</value>
+  </data>
+  <data name="&gt;&gt;btnRecipeIngredientClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsIngredientColumn.Name" xml:space="preserve">
+    <value>gridRecipeIngredientsIngredientColumn</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsIngredientColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsPercentageColumn.Name" xml:space="preserve">
+    <value>gridRecipeIngredientsPercentageColumn</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsPercentageColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsTypeColumn.Name" xml:space="preserve">
+    <value>gridRecipeIngredientsTypeColumn</value>
+  </data>
+  <data name="&gt;&gt;gridRecipeIngredientsTypeColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recipeIngredientBindingSource.Name" xml:space="preserve">
+    <value>recipeIngredientBindingSource</value>
+  </data>
+  <data name="&gt;&gt;recipeIngredientBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesAdd.Name" xml:space="preserve">
+    <value>btnRecipesAdd</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesRemove.Name" xml:space="preserve">
+    <value>btnRecipesRemove</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesClear.Name" xml:space="preserve">
+    <value>btnRecipesClear</value>
+  </data>
+  <data name="&gt;&gt;btnRecipesClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ingredientBindingSource.Name" xml:space="preserve">
+    <value>ingredientBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ingredientBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsAdd.Name" xml:space="preserve">
+    <value>btnIngredientsAdd</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsClear.Name" xml:space="preserve">
+    <value>btnIngredientsClear</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsDelete.Name" xml:space="preserve">
+    <value>btnIngredientsDelete</value>
+  </data>
+  <data name="&gt;&gt;btnIngredientsDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;recipeTagBindingSource.Name" xml:space="preserve">
+    <value>recipeTagBindingSource</value>
+  </data>
+  <data name="&gt;&gt;recipeTagBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

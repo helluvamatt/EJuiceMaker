@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0" Name="Inventory.xml" xmlns="http://schneenet.com/EJuiceMaker/Inventory.xsd">
+  <Ingredients>
+    <Ingredient ID="1"  SKU="" UPC="" Name="Nicotine Solution" Type="NicotineBase" Vendor="" Manufacturer="Heartland Vapes" PgContent="0" VgContent="1" NicotineDose="48" Notes="" />
+    <Ingredient ID="2"  SKU="" UPC="" Name="Ultra Premium Nicotine" Type="NicotineBase" Vendor="" Manufacturer="Heartland Vapes" PgContent="1" VgContent="0" NicotineDose="100" Notes="" />
+    <Ingredient ID="3"  SKU="" UPC="" Name="PG" Type="PropyleneGlycol" Vendor="" Manufacturer="Heartland Vapes" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="4"  SKU="" UPC="" Name="VG" Type="VegetableGlycerin" Vendor="" Manufacturer="Essential Depot" PgContent="0" VgContent="1" Notes="" />
+    <Ingredient ID="5"  SKU="" UPC="" Name="VG" Type="VegetableGlycerin" Vendor="" Manufacturer="Heartland Vapes" PgContent="0" VgContent="1" Notes="" />
+    <Ingredient ID="6"  SKU="" UPC="" Name="Apple" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="7"  SKU="" UPC="" Name="Blue Raspberry Cotton Candy" Type="Flavor" Vendor="" Manufacturer="Capella" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="8"  SKU="" UPC="" Name="Blueberry (Wild)" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="9"  SKU="" UPC="" Name="Champagne (PG)" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="10" SKU="" UPC="" Name="Citrus Punch" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="11" SKU="" UPC="" Name="Coconut" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="12" SKU="" UPC="" Name="Ethyl Maltol" Type="Flavor" Vendor="" Manufacturer="Heartland Vapes" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="13" SKU="" UPC="" Name="Extreme Ice" Type="Flavor" Vendor="" Manufacturer="Flavor West" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="14" SKU="" UPC="" Name="Grape Candy" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="15" SKU="" UPC="" Name="Harvest Berry" Type="Flavor" Vendor="" Manufacturer="Capella" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="16" SKU="" UPC="" Name="Juicy Lemon" Type="Flavor" Vendor="" Manufacturer="Capella" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="17" SKU="" UPC="" Name="Koolada (10% PG)" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="18" SKU="" UPC="" Name="Lava Flow Flavor Base" Type="Flavor" Vendor="" Manufacturer="" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="19" SKU="" UPC="" Name="Peppermint" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="20" SKU="" UPC="" Name="Pineapple" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="21" SKU="" UPC="" Name="Spearmint" Type="Flavor" Vendor="" Manufacturer="Flavor West" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="22" SKU="" UPC="" Name="Strawberry" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="23" SKU="" UPC="" Name="Strawberry (Ripe)" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="24" SKU="" UPC="" Name="Sweet Cream" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="25" SKU="" UPC="" Name="Sweetener (Sucralose)" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+    <Ingredient ID="26" SKU="" UPC="" Name="Watermelon" Type="Flavor" Vendor="" Manufacturer="The Flavor Apprentice" PgContent="1" VgContent="0" Notes="" />
+  </Ingredients>
+  <Recipes>
+    <Recipe ID="1" Name="Baja Blast" DefaultNicotineDose="3" DefaultAmountMl="60" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="1" IngredientID="3" />
+        <Ingredient ID="2" IngredientID="4" />
+        <Ingredient ID="3" IngredientID="2" />
+        <Ingredient ID="4" IngredientID="8" Percentage="0.07" />
+        <Ingredient ID="5" IngredientID="10" Percentage="0.07" />
+        <Ingredient ID="6" IngredientID="9" Percentage="0.01" />
+        <Ingredient ID="7" IngredientID="25" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="2" Name="Berries and Cream" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="Harvest Berry is dry, probably needs some Champagne or menthol/koolada to make it &quot;wetter&quot;.">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="8" IngredientID="3" />
+        <Ingredient ID="9" IngredientID="4" />
+        <Ingredient ID="10" IngredientID="2" />
+        <Ingredient ID="11" IngredientID="15" Percentage="0.05" />
+        <Ingredient ID="12" IngredientID="24" Percentage="0.02" />
+        <Ingredient ID="13" IngredientID="12" Percentage="0.02" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="3" Name="Cool Strap-On" DefaultNicotineDose="3" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="14" IngredientID="3" />
+        <Ingredient ID="15" IngredientID="4" />
+        <Ingredient ID="16" IngredientID="1" />
+        <Ingredient ID="17" IngredientID="22" Percentage="0.05" />
+        <Ingredient ID="18" IngredientID="6" Percentage="0.02" />
+        <Ingredient ID="19" IngredientID="26" Percentage="0.035" />
+        <Ingredient ID="20" IngredientID="17" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="4" Name="Grape Jolly Rancher" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="21" IngredientID="3" />
+        <Ingredient ID="22" IngredientID="4" />
+        <Ingredient ID="23" IngredientID="1" />
+        <Ingredient ID="24" IngredientID="14" Percentage="0.04" />
+        <Ingredient ID="25" IngredientID="12" Percentage="0.02" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="5" Name="Harvest Berry" DefaultNicotineDose="3" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="26" IngredientID="3" />
+        <Ingredient ID="27" IngredientID="4" />
+        <Ingredient ID="28" IngredientID="1" />
+        <Ingredient ID="29" IngredientID="15" Percentage="0.07" />
+        <Ingredient ID="30" IngredientID="12" Percentage="0.02" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="6" Name="Lava Flow" DefaultNicotineDose="3" DefaultAmountMl="60" DaysToSteep="0" Notes="Experiment: Remove Sweetener">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="31" IngredientID="3" />
+        <Ingredient ID="32" IngredientID="2" />
+        <Ingredient ID="33" IngredientID="11" Percentage="0.01" />
+        <Ingredient ID="34" IngredientID="20" Percentage="0.01" />
+        <Ingredient ID="35" IngredientID="23" Percentage="0.07" />
+        <Ingredient ID="36" IngredientID="24" Percentage="0.01" />
+        <Ingredient ID="37" IngredientID="25" Percentage="0.01" />
+        <Ingredient ID="38" IngredientID="4" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="7" Name="Lava Flow (from base)" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="39" IngredientID="3" />
+        <Ingredient ID="40" IngredientID="1" />
+        <Ingredient ID="41" IngredientID="4" />
+        <Ingredient ID="42" IngredientID="18" Percentage="0.11" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="8" Name="Lava Flow Flavor Base" DefaultNicotineDose="0" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="43" IngredientID="3" />
+        <Ingredient ID="44" IngredientID="1" />
+        <Ingredient ID="45" IngredientID="4" />
+        <Ingredient ID="46" IngredientID="11" Percentage="0.09090909" />
+        <Ingredient ID="47" IngredientID="20" Percentage="0.09090909" />
+        <Ingredient ID="48" IngredientID="23" Percentage="0.6363636" />
+        <Ingredient ID="49" IngredientID="24" Percentage="0.09090909" />
+        <Ingredient ID="50" IngredientID="25" Percentage="0.09090909" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="9" Name="Peppermint Creme Candy" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="4-5% TFA Peppermint is muted, 7% may be better.">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="51" IngredientID="3" />
+        <Ingredient ID="52" IngredientID="4" />
+        <Ingredient ID="53" IngredientID="1" />
+        <Ingredient ID="54" IngredientID="19" Percentage="0.07" />
+        <Ingredient ID="55" IngredientID="24" Percentage="0.02" />
+        <Ingredient ID="56" IngredientID="12" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="10" Name="Spearmint" DefaultNicotineDose="3" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="57" IngredientID="3" />
+        <Ingredient ID="58" IngredientID="4" />
+        <Ingredient ID="59" IngredientID="1" />
+        <Ingredient ID="60" IngredientID="21" Percentage="0.03" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="11" Name="Strap-On" DefaultNicotineDose="3" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="61" IngredientID="3" />
+        <Ingredient ID="62" IngredientID="4" />
+        <Ingredient ID="63" IngredientID="1" />
+        <Ingredient ID="64" IngredientID="22" Percentage="0.05" />
+        <Ingredient ID="65" IngredientID="6" Percentage="0.02" />
+        <Ingredient ID="66" IngredientID="26" Percentage="0.035" />
+        <Ingredient ID="67" IngredientID="12" Percentage="0.005" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="12" Name="Strawberry Mint" DefaultNicotineDose="3" DefaultAmountMl="20" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="68" IngredientID="3" />
+        <Ingredient ID="69" IngredientID="4" />
+        <Ingredient ID="70" IngredientID="1" />
+        <Ingredient ID="71" IngredientID="23" Percentage="0.04" />
+        <Ingredient ID="72" IngredientID="22" Percentage="0.05" />
+        <Ingredient ID="73" IngredientID="21" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="13" Name="Summer Strawberry" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="74" IngredientID="3" />
+        <Ingredient ID="75" IngredientID="4" />
+        <Ingredient ID="76" IngredientID="1" />
+        <Ingredient ID="77" IngredientID="22" Percentage="0.09" />
+        <Ingredient ID="78" IngredientID="13" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="14" Name="Summer Watermelon" DefaultNicotineDose="3" DefaultAmountMl="30" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="79" IngredientID="3" />
+        <Ingredient ID="80" IngredientID="4" />
+        <Ingredient ID="81" IngredientID="1" />
+        <Ingredient ID="82" IngredientID="13" Percentage="0.01" />
+        <Ingredient ID="83" IngredientID="26" Percentage="0.08" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="15" Name="Tiger's Blood" DefaultNicotineDose="0" DefaultAmountMl="10" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="84" IngredientID="3" />
+        <Ingredient ID="85" IngredientID="2" />
+        <Ingredient ID="86" IngredientID="11" Percentage="0.015" />
+        <Ingredient ID="87" IngredientID="22" Percentage="0.09" />
+        <Ingredient ID="88" IngredientID="26" Percentage="0.045" />
+        <Ingredient ID="89" IngredientID="4" />
+      </Ingredients>
+    </Recipe>
+    <Recipe ID="16" Name="Very Berry" DefaultNicotineDose="3" DefaultAmountMl="60" DaysToSteep="0" Notes="">
+      <Tags />
+      <Ingredients>
+        <Ingredient ID="90" IngredientID="3" />
+        <Ingredient ID="91" IngredientID="4" />
+        <Ingredient ID="92" IngredientID="2" />
+        <Ingredient ID="93" IngredientID="7" Percentage="0.08" />
+        <Ingredient ID="94" IngredientID="16" Percentage="0.02" />
+        <Ingredient ID="95" IngredientID="25" Percentage="0.01" />
+      </Ingredients>
+    </Recipe>
+  </Recipes>
+</Inventory>

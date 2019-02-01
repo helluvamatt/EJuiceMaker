@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schneenet.com/EJuiceMaker/Inventory.xsd" elementFormDefault="qualified" targetNamespace="http://schneenet.com/EJuiceMaker/Inventory.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Inventory">
+    <xs:complexType>
+      <xs:complexContent mixed="false">
+        <xs:extension base="tns:NamedBaseModel">
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Ingredients">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="Ingredient">
+                    <xs:complexType>
+                      <xs:complexContent mixed="false">
+                        <xs:extension base="tns:NamedBaseModel">
+                          <xs:attribute name="Type" use="required">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:enumeration value="None" />
+                                <xs:enumeration value="NicotineBase" />
+                                <xs:enumeration value="VegetableGlycerin" />
+                                <xs:enumeration value="PropyleneGlycol" />
+                                <xs:enumeration value="Flavor" />
+                                <xs:enumeration value="Other" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:attribute>
+                          <xs:attribute name="SKU" type="xs:string" />
+                          <xs:attribute name="UPC" type="xs:string" />
+                          <xs:attribute name="Vendor" type="xs:string" />
+                          <xs:attribute name="Manufacturer" type="xs:string" />
+                          <xs:attribute name="PgContent" type="xs:float" use="required" />
+                          <xs:attribute name="VgContent" type="xs:float" use="required" />
+                          <xs:attribute default="0" name="WaterContent" type="xs:float" />
+                          <xs:attribute default="0" name="AlcoholContent" type="xs:float" />
+                          <xs:attribute default="0" name="NicotineDose" type="xs:float" />
+                          <xs:attribute default="1" name="SpecificGravity" type="xs:float" />
+                          <xs:attribute default="0" name="CostPerMl" type="xs:decimal" />
+                          <xs:attribute default="0" name="QtyOnHand" type="xs:float" />
+                          <xs:attribute default="0" name="QtyLowAlert" type="xs:float" />
+                          <xs:attribute default="false" name="QtyLowAlertEnabled" type="xs:boolean" />
+                          <xs:attribute default="0" name="QtyLowWarn" type="xs:float" />
+                          <xs:attribute default="false" name="QtyLowWarnEnabled" type="xs:boolean" />
+                          <xs:attribute name="Notes" type="xs:string" />
+                        </xs:extension>
+                      </xs:complexContent>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="0" maxOccurs="1" name="Recipes">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="Recipe">
+                    <xs:complexType>
+                      <xs:complexContent mixed="false">
+                        <xs:extension base="tns:NamedBaseModel">
+                          <xs:sequence>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Tags">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element minOccurs="0" maxOccurs="unbounded" name="Tag">
+                                    <xs:complexType mixed="true">
+                                      <xs:complexContent mixed="false">
+                                        <xs:extension base="tns:BaseModel" />
+                                      </xs:complexContent>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="1" name="Ingredients">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element minOccurs="0" maxOccurs="unbounded" name="Ingredient">
+                                    <xs:complexType>
+                                      <xs:complexContent mixed="false">
+                                        <xs:extension base="tns:BaseModel">
+                                          <xs:attribute name="IngredientID" type="xs:long" use="required" />
+                                          <xs:attribute default="0" name="Percentage" type="xs:float" />
+                                        </xs:extension>
+                                      </xs:complexContent>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                          <xs:attribute name="DefaultNicotineDose" type="xs:float" use="required" />
+                          <xs:attribute default="0.5" name="DefaultVg" type="xs:float" />
+                          <xs:attribute default="0.5" name="DefaultPg" type="xs:float" />
+                          <xs:attribute name="DefaultAmountMl" type="xs:float" use="required" />
+                          <xs:attribute name="DaysToSteep" type="xs:int" use="required" />
+                          <xs:attribute name="Notes" type="xs:string" />
+                        </xs:extension>
+                      </xs:complexContent>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="NamedBaseModel" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseModel">
+        <xs:attribute name="Name" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="BaseModel" abstract="true">
+    <xs:attribute name="ID" type="xs:long" use="required" />
+  </xs:complexType>
+</xs:schema>

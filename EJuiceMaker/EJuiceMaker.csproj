@@ -35,25 +35,58 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Controls\Editors.cs" />
+    <Compile Include="Controls\DateTimePickerEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DateTimePickerEx.Designer.cs">
+      <DependentUpon>DateTimePickerEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawingUtils.cs" />
+    <Compile Include="Controls\ListBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PanelSwitcher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PercentNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TagItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TagsListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UnitNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\IngredientModel.cs" />
+    <Compile Include="Models\MixModel.cs" />
+    <Compile Include="Models\PropertyModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\DateTimePickerEx.resx">
+      <DependentUpon>DateTimePickerEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +95,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\EJuiceMaker.Controls.TabPageEntry.datasource" />
+    <None Include="Properties\DataSources\EJuiceMaker.Data.Ingredient.datasource" />
+    <None Include="Properties\DataSources\EJuiceMaker.Data.Recipe.datasource" />
+    <None Include="Properties\DataSources\EJuiceMaker.Data.RecipeIngredient.datasource" />
+    <None Include="Properties\DataSources\EJuiceMaker.Data.RecipeTag.datasource" />
+    <None Include="Properties\DataSources\EJuiceMaker.Models.MixIngredientModel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +115,41 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Icons\16\add.png" />
+    <Content Include="Assets\Icons\16\bin_empty.png" />
+    <Content Include="Assets\Icons\16\calculator_edit.png" />
+    <Content Include="Assets\Icons\16\cross_shield.png" />
+    <Content Include="Assets\Icons\16\delete.png" />
+    <Content Include="Assets\Icons\16\diskette.png" />
+    <Content Include="Assets\Icons\16\house.png" />
+    <Content Include="Assets\Icons\16\house_go.png" />
+    <Content Include="Assets\Icons\16\save_as.png" />
+    <Content Include="Assets\Icons\16\folder_vertical_open.png" />
+    <Content Include="Assets\Icons\16\page_white.png" />
+    <Content Include="Assets\Icons\16\table_export.png" />
+    <Content Include="Assets\Icons\16\table_import.png" />
+    <Content Include="Assets\Icons\16\table_lightning.png" />
+    <Content Include="Assets\Icons\16\table_save.png" />
+    <Content Include="Assets\Icons\16\tick_shield.png" />
+    <Content Include="Assets\mix.svg" />
+    <Content Include="Assets\recipes.svg" />
+    <Content Include="Assets\ingredients.svg" />
+    <Content Include="Inventory.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EJuiceMaker.Data\EJuiceMaker.Data.csproj">
+      <Project>{02513cff-d8cd-4292-a054-42ed593f1553}</Project>
+      <Name>EJuiceMaker.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Svg">
+      <Version>2.4.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
