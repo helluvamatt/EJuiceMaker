@@ -39,6 +39,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindingListEx.cs" />
+    <Compile Include="FlavorManager.cs" />
+    <Compile Include="Flavors.cs">
+      <DependentUpon>Flavors.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Inventory.cs">
       <DependentUpon>Inventory.xsd</DependentUpon>
     </Compile>
@@ -46,6 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Flavors.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Inventory.xsd">
       <SubType>Designer</SubType>
     </None>

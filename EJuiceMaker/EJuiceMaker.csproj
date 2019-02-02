@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Design" />
@@ -97,6 +98,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ExportTemplates\default.hbr" />
     <None Include="Properties\DataSources\EJuiceMaker.Controls.TabPageEntry.datasource" />
     <None Include="Properties\DataSources\EJuiceMaker.Data.Ingredient.datasource" />
     <None Include="Properties\DataSources\EJuiceMaker.Data.Recipe.datasource" />
@@ -107,6 +109,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Settings.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -136,8 +141,11 @@
     <Content Include="Assets\mix.svg" />
     <Content Include="Assets\recipes.svg" />
     <Content Include="Assets\ingredients.svg" />
-    <Content Include="Inventory.xml">
+    <Content Include="Flavors\ThePerfumersApprentice.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inventory.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -147,9 +155,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Handlebars.Net">
+      <Version>1.9.5</Version>
+    </PackageReference>
     <PackageReference Include="Svg">
       <Version>2.4.1</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

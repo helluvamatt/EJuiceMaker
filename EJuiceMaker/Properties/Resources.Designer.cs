@@ -204,6 +204,16 @@ namespace EJuiceMaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] default_template {
+            get {
+                object obj = ResourceManager.GetObject("default_template", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap delete {
@@ -640,6 +650,15 @@ namespace EJuiceMaker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to export mix: {0}.
+        /// </summary>
+        internal static string ErrorFailedToExport {
+            get {
+                return ResourceManager.GetString("ErrorFailedToExport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to load inventory: {0}.
         /// </summary>
         internal static string ErrorFailedToLoadInventory {
@@ -672,6 +691,15 @@ namespace EJuiceMaker.Properties {
         internal static string ErrorFormatPercent {
             get {
                 return ResourceManager.GetString("ErrorFormatPercent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Missing template directory..
+        /// </summary>
+        internal static string ErrorMissingTemplateDirectory {
+            get {
+                return ResourceManager.GetString("ErrorMissingTemplateDirectory", resourceCulture);
             }
         }
         

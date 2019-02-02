@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lstTabs = new EJuiceMaker.Controls.ListBoxEx();
             this.tabPageEntryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
@@ -45,6 +45,8 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.saveInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveInventoryAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.importFlavorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelSwitcher = new EJuiceMaker.Controls.PanelSwitcher();
@@ -70,6 +72,7 @@
             this.cmbMixRecipe = new System.Windows.Forms.ComboBox();
             this.recipeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.toolStripMix = new System.Windows.Forms.ToolStrip();
+            this.btnMixExport = new System.Windows.Forms.ToolStripButton();
             this.btnMixEditRecipe = new System.Windows.Forms.ToolStripButton();
             this.btnMixResetDefaults = new System.Windows.Forms.ToolStripButton();
             this.btnMixSaveDefaults = new System.Windows.Forms.ToolStripButton();
@@ -122,6 +125,8 @@
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.recipeTagBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.openFileDialogFlavors = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialogExport = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.tabPageEntryBindingSource)).BeginInit();
             this.mainMenuStrip.SuspendLayout();
             this.panelSwitcher.SuspendLayout();
@@ -187,6 +192,8 @@
             this.toolStripSeparator2,
             this.saveInventoryToolStripMenuItem,
             this.saveInventoryAsToolStripMenuItem,
+            this.toolStripSeparator4,
+            this.importFlavorsToolStripMenuItem,
             this.toolStripSeparator3,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -229,6 +236,18 @@
             this.saveInventoryAsToolStripMenuItem.Name = "saveInventoryAsToolStripMenuItem";
             resources.ApplyResources(this.saveInventoryAsToolStripMenuItem, "saveInventoryAsToolStripMenuItem");
             this.saveInventoryAsToolStripMenuItem.Click += new System.EventHandler(this.OnSaveInventoryAsToolStripMenuItemClick);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            // 
+            // importFlavorsToolStripMenuItem
+            // 
+            this.importFlavorsToolStripMenuItem.Image = global::EJuiceMaker.Properties.Resources.table_import;
+            this.importFlavorsToolStripMenuItem.Name = "importFlavorsToolStripMenuItem";
+            resources.ApplyResources(this.importFlavorsToolStripMenuItem, "importFlavorsToolStripMenuItem");
+            this.importFlavorsToolStripMenuItem.Click += new System.EventHandler(this.OnImportFlavorsToolStripMenuItemClick);
             // 
             // toolStripSeparator3
             // 
@@ -398,9 +417,9 @@
             // 
             this.gridMixResultsComputedPercentageColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.gridMixResultsComputedPercentageColumn.DataPropertyName = "ComputedPercentage";
-            dataGridViewCellStyle11.Format = "P";
-            dataGridViewCellStyle11.NullValue = null;
-            this.gridMixResultsComputedPercentageColumn.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle1.Format = "P";
+            dataGridViewCellStyle1.NullValue = null;
+            this.gridMixResultsComputedPercentageColumn.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.gridMixResultsComputedPercentageColumn, "gridMixResultsComputedPercentageColumn");
             this.gridMixResultsComputedPercentageColumn.Name = "gridMixResultsComputedPercentageColumn";
             this.gridMixResultsComputedPercentageColumn.ReadOnly = true;
@@ -409,9 +428,9 @@
             // 
             this.gridMixResultsComputedVolumeColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.gridMixResultsComputedVolumeColumn.DataPropertyName = "ComputedVolume";
-            dataGridViewCellStyle12.Format = "0.000 mL";
-            dataGridViewCellStyle12.NullValue = null;
-            this.gridMixResultsComputedVolumeColumn.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle2.Format = "0.000 mL";
+            dataGridViewCellStyle2.NullValue = null;
+            this.gridMixResultsComputedVolumeColumn.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.gridMixResultsComputedVolumeColumn, "gridMixResultsComputedVolumeColumn");
             this.gridMixResultsComputedVolumeColumn.Name = "gridMixResultsComputedVolumeColumn";
             this.gridMixResultsComputedVolumeColumn.ReadOnly = true;
@@ -420,9 +439,9 @@
             // 
             this.gridMixResultsComputedMassColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.gridMixResultsComputedMassColumn.DataPropertyName = "ComputedMass";
-            dataGridViewCellStyle13.Format = "0.000 g";
-            dataGridViewCellStyle13.NullValue = null;
-            this.gridMixResultsComputedMassColumn.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle3.Format = "0.000 g";
+            dataGridViewCellStyle3.NullValue = null;
+            this.gridMixResultsComputedMassColumn.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.gridMixResultsComputedMassColumn, "gridMixResultsComputedMassColumn");
             this.gridMixResultsComputedMassColumn.Name = "gridMixResultsComputedMassColumn";
             this.gridMixResultsComputedMassColumn.ReadOnly = true;
@@ -448,12 +467,20 @@
             // 
             this.toolStripMix.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStripMix.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnMixExport,
             this.btnMixEditRecipe,
             this.btnMixResetDefaults,
             this.btnMixSaveDefaults});
             resources.ApplyResources(this.toolStripMix, "toolStripMix");
             this.toolStripMix.Name = "toolStripMix";
             this.toolStripMix.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            // 
+            // btnMixExport
+            // 
+            this.btnMixExport.Image = global::EJuiceMaker.Properties.Resources.table_export;
+            resources.ApplyResources(this.btnMixExport, "btnMixExport");
+            this.btnMixExport.Name = "btnMixExport";
+            this.btnMixExport.Click += new System.EventHandler(this.OnMixExportClick);
             // 
             // btnMixEditRecipe
             // 
@@ -749,9 +776,9 @@
             // 
             this.gridRecipeIngredientsPercentageColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.gridRecipeIngredientsPercentageColumn.DataPropertyName = "Percentage";
-            dataGridViewCellStyle14.Format = "P";
-            dataGridViewCellStyle14.NullValue = null;
-            this.gridRecipeIngredientsPercentageColumn.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle4.Format = "P";
+            dataGridViewCellStyle4.NullValue = null;
+            this.gridRecipeIngredientsPercentageColumn.DefaultCellStyle = dataGridViewCellStyle4;
             resources.ApplyResources(this.gridRecipeIngredientsPercentageColumn, "gridRecipeIngredientsPercentageColumn");
             this.gridRecipeIngredientsPercentageColumn.Name = "gridRecipeIngredientsPercentageColumn";
             // 
@@ -759,8 +786,8 @@
             // 
             this.gridRecipeIngredientsTypeColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.gridRecipeIngredientsTypeColumn.DataPropertyName = "IngredientType";
-            dataGridViewCellStyle15.NullValue = null;
-            this.gridRecipeIngredientsTypeColumn.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle5.NullValue = null;
+            this.gridRecipeIngredientsTypeColumn.DefaultCellStyle = dataGridViewCellStyle5;
             resources.ApplyResources(this.gridRecipeIngredientsTypeColumn, "gridRecipeIngredientsTypeColumn");
             this.gridRecipeIngredientsTypeColumn.Name = "gridRecipeIngredientsTypeColumn";
             this.gridRecipeIngredientsTypeColumn.ReadOnly = true;
@@ -892,6 +919,16 @@
             // recipeTagBindingSource
             // 
             this.recipeTagBindingSource.DataSource = typeof(EJuiceMaker.Data.RecipeTag);
+            // 
+            // openFileDialogFlavors
+            // 
+            this.openFileDialogFlavors.DefaultExt = "xml";
+            resources.ApplyResources(this.openFileDialogFlavors, "openFileDialogFlavors");
+            // 
+            // saveFileDialogExport
+            // 
+            this.saveFileDialogExport.DefaultExt = "html";
+            resources.ApplyResources(this.saveFileDialogExport, "saveFileDialogExport");
             // 
             // MainForm
             // 
@@ -1040,6 +1077,11 @@
         private System.Windows.Forms.ToolStripButton btnMixEditRecipe;
         private System.Windows.Forms.ToolStripButton btnMixSaveDefaults;
         private System.Windows.Forms.ToolStripButton btnMixResetDefaults;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem importFlavorsToolStripMenuItem;
+        private System.Windows.Forms.OpenFileDialog openFileDialogFlavors;
+        private System.Windows.Forms.ToolStripButton btnMixExport;
+        private System.Windows.Forms.SaveFileDialog saveFileDialogExport;
     }
 }
 

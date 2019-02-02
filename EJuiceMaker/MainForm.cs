@@ -1,6 +1,7 @@
 ﻿using EJuiceMaker.Controls;
 using EJuiceMaker.Data;
 using EJuiceMaker.Models;
+using HandlebarsDotNet;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,7 @@ namespace EJuiceMaker
     {
         private readonly InventoryManager _InventoryManager;
         private readonly MixModel _MixModel;
+        private readonly IHandlebars _Handlebars;
 
         public MainForm()
         {
@@ -26,7 +28,10 @@ namespace EJuiceMaker
             _InventoryManager = new InventoryManager();
             _MixModel = new MixModel();
 
-            Settings.Default.PropertyChanged += OnSettingsPropertyChanged;
+            var handlebarsConfig = new HandlebarsConfiguration();
+            handlebarsConfig.Helpers.Add("percent", (output, context, arguments) => output.Write(string.Format("{0:P}", arguments)));
+            handlebarsConfig.Helpers.Add("unit", (output, context, arguments) => output.Write(string.Format("{0} {1}", arguments)));
+            _Handlebars = Handlebars.Create(handlebarsConfig);
 
             tabPageEntryBindingSource.DataSource = new List<TabPageEntry>
             {
@@ -68,11 +73,6 @@ namespace EJuiceMaker
                 else if (result == DialogResult.Cancel) e.Cancel = true;
             }
             base.OnFormClosing(e);
-        }
-
-        private void OnSettingsPropertyChanged(object sender, PropertyChangedEventArgs e)
-        {
-            Settings.Default.Save();
         }
 
         private void OnNewInventoryToolStripMenuItemClick(object sender, EventArgs e)
@@ -153,6 +153,22 @@ namespace EJuiceMaker
             }
         }
 
+        private void OnImportFlavorsToolStripMenuItemClick(object sender, EventArgs e)
+        {
+            if (openFileDialogFlavors.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    var flavors = FlavorManager.Load(openFileDialogFlavors.FileName);
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(this, ex.Message, R.AppTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
         private void OnExitToolStripMenuItemClick(object sender, EventArgs e)
         {
             Close();
@@ -205,7 +221,39 @@ namespace EJuiceMaker
         #endregion
 
         #region Mix tab event handlers
-        
+
+        private void OnMixExportClick(object sender, EventArgs e)
+        {
+            if (saveFileDialogExport.ShowDialog(this) == DialogResult.OK)
+            {
+                try
+                {
+                    Action<TextWriter, object> template;
+                    using (var stream = new MemoryStream(R.default_template))
+                    {
+                        using (var reader = new StreamReader(stream))
+                        {
+                            template = _Handlebars.Compile(reader);
+                        }
+                    }
+
+                    using (var stream = new FileStream(saveFileDialogExport.FileName, FileMode.Create, FileAccess.Write))
+                    {
+                        using (var writer = new StreamWriter(stream, Encoding.UTF8))
+                        {
+                            template.Invoke(writer, new { mix = _MixModel });
+                        }
+                    }
+
+                    System.Diagnostics.Process.Start(saveFileDialogExport.FileName);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(this, string.Format(R.ErrorFailedToExport, ex.Message), R.AppTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
         private void OnMixEditRecipeClick(object sender, EventArgs e)
         {
             tabPageEntryBindingSource.Position = 1;
