@@ -29,6 +29,39 @@ namespace EJuiceMaker.Controls
             Text = Value.ToString(string.Format("p{0}", DecimalPlaces), CultureInfo.CurrentCulture);
         }
 
+        protected override void OnTextBoxKeyPress(object source, KeyPressEventArgs e)
+        {
+            OnKeyPress(e);
+
+            NumberFormatInfo numberFormatInfo = CultureInfo.CurrentCulture.NumberFormat;
+            string decimalSeparator = numberFormatInfo.NumberDecimalSeparator;
+            string percentSign = numberFormatInfo.PercentSymbol;
+
+            string keyInput = e.KeyChar.ToString();
+
+            if (char.IsDigit(e.KeyChar))
+            {
+                // Digits are OK
+            }
+            else if (keyInput.Equals(decimalSeparator) || keyInput.Equals(percentSign))
+            {
+                // Decimal separator and percent sign are OK
+            }
+            else if (e.KeyChar == '\b')
+            {
+                // Backspace key is OK
+            }
+            else if ((ModifierKeys & (Keys.Control | Keys.Alt)) != 0)
+            {
+                // Let the edit control handle control and alt key combinations
+            }
+            else
+            {
+                // Eat this invalid key
+                e.Handled = true;
+            }
+        }
+
         protected new void ParseEditText()
         {
             try

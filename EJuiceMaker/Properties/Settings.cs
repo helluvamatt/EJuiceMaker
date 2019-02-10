@@ -38,13 +38,13 @@ namespace EJuiceMaker.Properties
         public override SettingsPropertyValueCollection GetPropertyValues(SettingsContext context, SettingsPropertyCollection collection)
         {
             var values = new SettingsPropertyValueCollection();
-            // TODO
+            // TODO Custom settings provider: Read
             return values;
         }
 
         public override void SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection collection)
         {
-            // TODO
+            // TODO Custom settings provider: Write
         }
     }
 }

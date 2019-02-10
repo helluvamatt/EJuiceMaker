@@ -14,7 +14,7 @@ namespace EJuiceMaker.Controls
         {
             if (DrawItemEx != null)
             {
-                DrawItemEx?.Invoke(this, e);
+                DrawItemEx.Invoke(this, e);
             }
             else
             {
