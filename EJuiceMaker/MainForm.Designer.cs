@@ -729,6 +729,7 @@
             // btnRecipeIngredientAdd
             // 
             this.btnRecipeIngredientAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnRecipeIngredientAdd.Image = global::EJuiceMaker.Properties.Resources.add;
             resources.ApplyResources(this.btnRecipeIngredientAdd, "btnRecipeIngredientAdd");
             this.btnRecipeIngredientAdd.Name = "btnRecipeIngredientAdd";
             this.btnRecipeIngredientAdd.Click += new System.EventHandler(this.OnRecipeIngredientAddClick);
@@ -736,6 +737,7 @@
             // btnRecipeIngredientRemove
             // 
             this.btnRecipeIngredientRemove.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnRecipeIngredientRemove.Image = global::EJuiceMaker.Properties.Resources.delete;
             resources.ApplyResources(this.btnRecipeIngredientRemove, "btnRecipeIngredientRemove");
             this.btnRecipeIngredientRemove.Name = "btnRecipeIngredientRemove";
             this.btnRecipeIngredientRemove.Click += new System.EventHandler(this.OnRecipeIngredientRemoveClick);
@@ -744,6 +746,7 @@
             // 
             this.btnRecipeIngredientClear.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.btnRecipeIngredientClear.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnRecipeIngredientClear.Image = global::EJuiceMaker.Properties.Resources.bin_empty;
             resources.ApplyResources(this.btnRecipeIngredientClear, "btnRecipeIngredientClear");
             this.btnRecipeIngredientClear.Name = "btnRecipeIngredientClear";
             this.btnRecipeIngredientClear.Click += new System.EventHandler(this.OnRecipeIngredientClearClick);
